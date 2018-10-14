@@ -5,48 +5,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   
   <title>Frontend Mentor | Huddle landing page with single column layout</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Style Links -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
  <!-- HEADER -->
  <header id="main-header">
-    <div class="container">
         <img src="images/logo.svg" alt="">
-    </div>
   </header>
 
+<!-- Main Body -->
+<main class="site-content">
+  <section class="intro">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
+          your audience. Create connections with your users as you engage in genuine discussion.</p>
+  </section>
 
-  <h2>Build The Community Your Fans Will Love</h2>
-
-  <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
-      your audience. Create connections with your users as you engage in genuine discussion.</p>
-
+  <section class="mockup">
       <img src="/images/screen-mockups.svg" alt="">
-
-      <h2>Sign Up For Early Access</h2>
-      <p><input type="email" name="email" placeholder="email@example.com"> <button>Register</button></p>
-
-
-   
-
+  </section>
+  
+  <section class="sign-up">
+      <h1>Sign Up For Early Access</h1>
+      <form>
+          <input type="email" placeholder="email@example.com">
+          <button class = "register">Register</button>
+      </form>
+  </section>
+</main>
 
   <!-- FOOTER -->
   <footer id="main-footer">
-      <div class="container">
           <img src="images/logo.svg" alt="">
-    <p>
+            <nav class="navbar">
+              <ul>
+                  <li><a href="#">About Us</a></li>
+            <li><a href="#">What We Do</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Career</a></li>
+          <li><a href="#">Blog</a></li>
+<li><a href="#">Contact Us</a></li>
 
-        About Us
-        What We Do
-        FAQ
-        Career
-        Blog
-        Contact Us
+
+              </ul>
+            </nav>
+
+            <nav class="social-media">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+    </nav>
       
-        &copy; 2018 Huddle Copyright
-    </p>
-  </div>
+            <p class="copy">&copy; 2018 Huddle Copyright</p>
+
+
   </footer>
 </body>
 </html>
